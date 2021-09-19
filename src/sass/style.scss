@@ -25,6 +25,9 @@ $headings-font-family: $font-family-headings;
 $headings-color: $color-primary;
 $headings-font-weight: 400;
 
+$link-color: $color-primary;
+$component-active-bg: $color-primary;
+
 $navbar-nav-link-padding-x: 1.2rem;
 $navbar-light-color: $color-text-black;
 $navbar-light-hover-color: $color-text-black;
@@ -41,6 +44,7 @@ $nav-tabs-link-active-bg: $color-secondary-bg;
 @import "./partials/navbar";
 @import "./partials/tabs";
 @import "./partials/footer";
+@import "./partials/card";
 
 // CUSTOM
 body {
