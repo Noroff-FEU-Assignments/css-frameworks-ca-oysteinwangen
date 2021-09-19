@@ -1,0 +1,29 @@
+.contact-form {
+  padding: 20px;
+  background-color: $color-bg;
+  &__input {
+    min-height: 3rem;
+  }
+  &__prepend {
+    background: #c7c7c7;
+    color: white;
+  }
+  &__checkbox {
+    font-size: 1.5rem;
+    display: inline-block;
+  }
+  &__checkbox-label {
+    display: inline;
+    font-size: 0.9rem;
+  }
+  &__button {
+    width: 100%;
+    min-height: 3rem;
+    color: white;
+    background-color: $color-text-dark;
+    border: none;
+    &:hover {
+      color: white;
+    }
+  }
+}

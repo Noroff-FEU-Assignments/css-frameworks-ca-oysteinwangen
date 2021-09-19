@@ -28,6 +28,11 @@ $headings-font-weight: 400;
 $link-color: $color-primary;
 $component-active-bg: $color-primary;
 
+$form-check-input-bg: $color-primary;
+$form-check-input-border: 0px;
+$input-border-width: 0px;
+$input-bg: $color-secondary-bg;
+
 $navbar-nav-link-padding-x: 1.2rem;
 $navbar-light-color: $color-text-black;
 $navbar-light-hover-color: $color-text-black;
@@ -45,6 +50,8 @@ $nav-tabs-link-active-bg: $color-secondary-bg;
 @import "./partials/tabs";
 @import "./partials/footer";
 @import "./partials/card";
+@import "./partials/contact-form";
+@import "./partials/contact-info";
 
 // CUSTOM
 body {
