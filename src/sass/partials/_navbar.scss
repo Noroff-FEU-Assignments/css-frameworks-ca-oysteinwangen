@@ -1,0 +1,36 @@
+// LOGO
+.logo {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+// NAV LINKS
+.nav-link {
+  color: $color-text-black;
+  border-radius: 3px;
+  margin: 5px;
+  &:hover {
+    background-color: rgba(white, 0.8);
+  }
+}
+
+.active {
+  background-color: white;
+}
+
+// SEARCH
+.search {
+  margin: 8px 0px;
+  &__input {
+    border: none;
+    background-color: white;
+  }
+  &__button {
+    color: white;
+    &:hover {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+// Color variables
+$color-primary: #e92569;
+$color-light: #efefef;
+$color-bg: #efefef;
+$color-secondary-bg: #ffffff;
+$color-gradient-bg: radial-gradient(#ffffff, #e5e5e5);
+$color-nav-links: #0a0a0a;
+$color-text-black: #0a0a0a;
+$color-text-dark: #767676;
+
+$font-family-main: "Lato", sans-serif;
+$font-family-headings: "Playfair Display", serif;
+
+// Bootstrap custom
+$theme-colors: (
+  "primary": $color-primary,
+  "light": $color-light,
+  "dark": $color-text-black,
+);
+
+$body-bg: $color-bg;
+$body-color: $color-text-dark;
+$font-family-base: $font-family-main;
+$headings-font-family: $font-family-headings;
+$headings-color: $color-primary;
+$headings-font-weight: 400;
+
+$navbar-nav-link-padding-x: 1.2rem;
+$navbar-light-color: $color-text-black;
+$navbar-light-hover-color: $color-text-black;
+$navbar-light-active-color: $color-text-black;
+$navbar-light-brand-color: $color-primary;
+$navbar-light-brand-hover-color: rgba($color-primary, 0.8);
+
+$nav-tabs-border-width: 0;
+$nav-tabs-link-active-color: $color-text-dark;
+$nav-tabs-link-active-bg: $color-secondary-bg;
+
+// IMPORTS
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/navbar";
+@import "./partials/tabs";
+@import "./partials/footer";
+
+// CUSTOM
+body {
+  background: $color-gradient-bg;
+}
