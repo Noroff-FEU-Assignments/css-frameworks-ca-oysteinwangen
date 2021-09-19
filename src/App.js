@@ -67,7 +67,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
-        <Navbar className="footer" expand="lg" variant="light">
+        <Navbar fixed="bottom" className="footer" expand="lg" variant="light">
           <Container className="footer__cont">
             <Row className="footer__row d-flex justify-content-between py-3 py-sm-0">
               <Col

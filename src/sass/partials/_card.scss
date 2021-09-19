@@ -9,6 +9,7 @@
     color: white;
     border-width: 0px 30px 0px 0px;
     border-color: $color-text-dark;
+    font-size: 0.8rem;
     &:hover {
       color: white;
       border-width: 0px 30px 0px 0px;
@@ -19,4 +20,7 @@
 
 .page-link {
   border-color: $color-primary;
+  &:hover {
+    border-color: $color-primary;
+  }
 }
