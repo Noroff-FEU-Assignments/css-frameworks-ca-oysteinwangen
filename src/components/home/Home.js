@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import CarouselMod from "./CarouselMod";
 import MidContent from "./MidContent";
 import TabsMod from "./TabsMod";
+import Acc from "./Acc";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Container fluid="lg" className="my-5">
         <MidContent />
         <TabsMod />
+        <Acc />
       </Container>
     </>
   );
