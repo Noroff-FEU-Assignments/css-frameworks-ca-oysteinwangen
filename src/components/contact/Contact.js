@@ -9,7 +9,7 @@ function Contact() {
   return (
     <div>
       <Container className="my-5">
-        <Row className="d-flex flex-column-reverse flex-lg-row g-4">
+        <Row className="d-flex flex-column-reverse flex-lg-row g-5">
           <Col>
             <ContactForm />
           </Col>

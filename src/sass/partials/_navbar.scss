@@ -34,3 +34,14 @@
     }
   }
 }
+
+// Mobile
+.navbar-toggler {
+  border: none;
+  color: $color-primary !important;
+}
+
+#basic-navbar-nav .nav-link {
+  padding-left: 25px;
+  padding-right: 25px;
+}

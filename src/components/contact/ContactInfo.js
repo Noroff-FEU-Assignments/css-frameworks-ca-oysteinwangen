@@ -2,19 +2,19 @@ import React from "react";
 
 function ContactInfo() {
   return (
-    <div className="mt-5">
-      <div className="mb-4 d-flex contact-detail">
+    <div className="contact-detail">
+      <div className="mb-3 d-flex ">
         <img className="contact-detail__icon" src="images/icons/mail.svg" />
         <p>hello@yay.com</p>
       </div>
-      <div className="mb-4 d-flex contact-detail">
+      <div className="mb-3 d-flex">
         <img
           className="contact-detail__icon"
           src="images/icons/phone-call.svg"
         />
         <p>123 456 7890</p>
       </div>
-      <div className="mb-4 d-flex contact-detail">
+      <div className="mb-3 d-flex">
         <img
           className="contact-detail__icon"
           src="images/icons/location-pin.svg"
