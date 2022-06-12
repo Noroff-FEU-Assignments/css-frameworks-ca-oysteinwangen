@@ -1,70 +1,160 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 
-## Available Scripts
+  <h1 align="center">JS Frameworks CA</h1>
 
-In the project directory, you can run:
+  <p align="center">
+    A next.js app with API connections, forms and authentication.
+    <br />
+    <br />
+    <a href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-oysteinwangen/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-oysteinwangen/issues">Request Feature</a>
+  </p>
+</div>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#description">Description</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#running">Running</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#usage">Usage</a>
+      <ul>
+        <li><a href="#api">API</a></li>
+        <li><a href="#layout-ui-and-functions">Layout, UI and functions</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<!-- DESCRIPTION -->
+## Description
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="./JSFrameworksCAScreenshot.png" alt="Screenshot of the homepage" width="800">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+JS Frameworks CA is a specific feature project utilising several different technologies based around the React framework. It's based on API requests, a simple UI, and basic form and authentication functions that can be ported to all kinds of projects.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Features:**
+* A Home page with a products grid populated by a REST API-connection
+* Details page for single products, utilising dynamic routes
+* A contact page with form validation
+* A login page with API authentication
 
-### `npm run eject`
+### Built With
+* [Next.js](https://nextjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Formik](https://formik.org/)
+* [Yup](https://www.npmjs.com/package/yup)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<!-- GETTING STARTED -->
+## Getting Started
+### Installation
 
-## Learn More
+1. Clone the repo:
+   ```sh
+   git clone git@github.com:Noroff-FEU-Assignments/js-frameworks-course-assignment-oysteinwangen.git
+   ```
+2. Install NPM packages:
+   ```sh
+   npm install
+   ```
+### Running
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run the following command to start developing:
+```sh
+npm run dev
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- USAGE -->
+## Usage
 
-### Analyzing the Bundle Size
+### API
+The API constants is located in `./constants/api.js` if you want to switch to a custom API for development.
+```js
+export const BASE_URL = "https://strapi-sp2-ow.herokuapp.com/";
+export const TOKEN_PATH = "auth/local";
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Layout, UI and functions
+All styling and UI layout comes from utilising the integrated Tailwind CSS library. [Click here to view the docs](https://tailwindcss.com/docs).
 
-### Making a Progressive Web App
+The pages are constructed by building several .js-components and putting them together. Check out the [Next.js documentation](https://nextjs.org/docs) on how to expand on this. For detail pages, [dynamic routes](https://nextjs.org/docs/routing/dynamic-routes) are used.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Forms with validation are built using [Formik](https://formik.org/docs/overview) and [Yup](https://www.npmjs.com/package/yup).
 
-### Advanced Configuration
+<!-- CONTRIBUTING -->
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Any contributions you make are **greatly appreciated!**
 
-### Deployment
+If you have a suggestion that would make this project better, please fork the repo and open a pull request. You can also simply open an [issue](https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-oysteinwangen/issues) with the tag "suggestion".
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/Suggestion`)
+3. Commit your Changes (`git commit -m 'Add feature'`)
+4. Push to the Branch (`git push origin feature/Suggestion`)
+5. Open a Pull Request
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Feel free to contact me on email - [hello@wangen.digital](mailto:hello@wangen.digital)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Next.js](https://nextjs.org/)
+* [Formik](https://formik.org/)
+* [Yup](https://www.npmjs.com/package/yup)
+* [Tolga Musikk | For product images](https://tolgamusikk.no)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
