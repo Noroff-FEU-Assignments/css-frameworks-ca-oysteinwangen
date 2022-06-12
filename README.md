@@ -1,36 +1,131 @@
-# CSS Frameworks Course Assignment
+<div id="top"></div>
 
-## Brief
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 
-From the supplied design, use Bootstrap or React Bootstrap to create a responsive website.
+  <h1 align="center">CSS Frameworks CA</h1>
 
-## Level 1 Process
+  <p align="center">
+    A React application with SASS.
+    <br />
+    <br />
+    <a href="https://github.com/Noroff-FEU-Assignments/css-frameworks-ca-oysteinwangen/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Noroff-FEU-Assignments/css-frameworks-ca-oysteinwangen/issues">Request Feature</a>
+  </p>
+</div>
 
-- You may use React or regular HTML, JavaScript and Sass.
-- You may use Bootstrap or React Bootstrap.
-- Use one of Sass, CSS Modules or Styled Components to style the project.
-- You can use Font Awesome or another icon library for the icons.
-- The fonts in the design are Google fonts.
 
-## Level 2 Process
 
-- If you use Sass, use BEM to create your class names.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#description">Description</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#running">Running</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#usage">Usage</a>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-## Resources
 
-The design and additional files can be found in this repo.
 
-## Marking Criteria
+<!-- DESCRIPTION -->
+## Description
 
-- The site should match the design as closely as possible and should be responsive across all device sizes.
-- If your project uses Sass, the files should be appropriately named and arranged in partials.
-- If your project uses React, your components should be appropriately named and arranged.
+<img src="./CSSFrameworksCAScreenshot.png" alt="Screenshot of the homepage" width="800">
 
-## Submission
+This is a feature project made to become familiar with the Bootstrap integration with React, also using SASS to extend and customize the Bootstrap-library.
 
-- When you accepted this submission, a repository was created for you. Use this repository for your code and submit a link to this repo when you deliver.
-- Remember to EXCLUDE the node_modules folder if you use React or any npm packages
+**Features:**
+* Hero image slider
+* Search bar
+* Basic UI
+* Tabbed content
+* Grid and pagination buttons
+* Contact form
 
-## Time
+### Built With
+* [React](https://reactjs.org/)
+* [Bootstrap](https://react-bootstrap.github.io/)
+* [Node Sass](https://www.npmjs.com/package/node-sass)
 
-40 hours
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+### Installation
+
+1. Clone the repo:
+   ```sh
+   git clone git@github.com:Noroff-FEU-Assignments/css-frameworks-ca-oysteinwangen.git
+   ```
+2. Install NPM packages:
+   ```sh
+   npm install
+   ```
+### Running
+
+Run the following command to start developing:
+```sh
+npm run start
+```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- USAGE -->
+## Usage
+
+Check out the documentation for [React](https://reactjs.org/docs/getting-started.html) and [React-Bootstrap](https://react-bootstrap.github.io/getting-started/introduction) to further extend this project.
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Any contributions you make are **greatly appreciated!**
+
+If you have a suggestion that would make this project better, please fork the repo and open a pull request. You can also simply open an [issue](https://github.com/Noroff-FEU-Assignments/css-frameworks-ca-oysteinwangen/issues) with the tag "suggestion".
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/Suggestion`)
+3. Commit your Changes (`git commit -m 'Add feature'`)
+4. Push to the Branch (`git push origin feature/Suggestion`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Feel free to contact me on email - [hello@wangen.digital](mailto:hello@wangen.digital)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
